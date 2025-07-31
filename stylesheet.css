@@ -1,0 +1,212 @@
+:root {
+    color:black;
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("images/backgroundImage.jpeg");
+}
+
+.logo {                
+    position: relative;
+    width: 100px;
+    height: 60px;
+    float: left;
+    margin-left: 10px;
+}
+.tanitiIslandText {
+    position: relative;
+    margin-left: 10px;
+    top: 20px;
+    color:black;
+    font-size: 28px; 
+}
+
+.logoAndTextContainer{
+    margin-left: 10px;
+}
+
+h1, h2 {
+    text-align: center; 
+    font-weight: bold;
+    font-size: 30px;
+}
+.headline{
+    text-align: center; 
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+.emptyDiv {
+    height: 10px;
+    background-color: rgb(199, 238, 230);
+}
+.headerContainer {
+    position: relative;
+    background-color: rgb(199, 238, 230);
+    top: -30px;
+    height: 60px;
+}
+nav {    
+    text-align: center;
+    color: white;
+}
+nav > a.active {
+    color: black;
+    text-decoration: underline;
+}
+a {
+    position: relative;
+    color:gray;
+    font-size: 28px; 
+    font-weight: none;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: -45px;
+}
+
+.links:hover, li > a:hover, nav a:hover, button:hover, .contactInfo:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+.section1{
+    position: relative;
+    height: 600px;
+
+}
+.section1 > div {
+    position: relative;
+    top: 10px;
+}
+.section1 > div > iframe, .section1 > div > img {
+    position: relative;
+    height: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: 5px solid black;
+    border-color: rgb(199, 238, 230);
+}
+.section1 > h2 {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+.emptyDivSection1{
+    position: relative;
+    top: -160px;
+    margin-left: 42%;
+    width: 250px;
+    height: 5px;
+    background-color: rgb(199, 238, 230);
+}
+
+.section1 > p, .pAttractions, li, ul {
+    background-color:  rgb(199, 238, 230);
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.noneBackgroundColor, ul{
+    background-color: none !important;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+.mainImage {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+}
+
+.logoAndTextContainer{
+    margin: 10px;
+}
+
+.section2{
+    position: relative;
+    height: 500px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: inline-flex;
+}
+.section2 > div {
+    display: block;
+    height: 480px;
+    width: 320px;
+    border: 2px solid rgb(199, 238, 230);
+    border-radius: 10px;
+}
+.section2 > div:hover {
+    border: 2px solid black;
+}
+.div1{    
+    height: 480px;
+    width: 320px;
+    margin-left: 200px;  
+}
+.div2{    
+    height: 480px;
+    width: 320px;
+    margin-left: 80px;  
+}
+.div3{    
+    height: 480px;
+    width: 320px;
+    margin-left: 80px;    
+}
+
+.img1{    
+    height: 450px;
+    width: 320px;
+    border-radius: 10px;
+}
+.img2{    
+    height: 450px;
+    width: 320px;
+    border-radius: 10px;
+}
+.img3{    
+    height: 450px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.div1 > div, .div2 > div, .div3 > div {
+    height: 25px;
+    width: 320px;
+    margin-top: 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+h3 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    font-weight: bold;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+}
+.contactInfo {
+    top: 0px !important;
+}
+.links {
+    top: 0px !important;
+}

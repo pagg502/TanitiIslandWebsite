@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="keywords" content="new pet consultation, new pet care consultation">
+      <link href="stylesheet.css" rel="stylesheet">
+      <title>Tanitian website</title>
+   </head>
+   <body>
+      <header class="headerContainer">
+         <div class="logoAndTextContainer" onclick="window.location.href='home.html'" style="cursor: pointer;">               
+         <div>
+            <img class="logo" src="images/logo11.jpg" alt="Logo Image"> 
+         </div>
+         <div>
+            <p class="tanitiIslandText">Taniti Island</p>
+         </div>
+         </div>
+         <div class="navContainer">
+            <nav>
+            <a href="home.html">Home</a> &nbsp;
+            <a class="active" href="lodging.html">Lodging</a> &nbsp;
+            <a href="attractions.html">Attractions</a> &nbsp;
+            <a href="transportation.html">Transportation</a> &nbsp;
+            <a href="restaurants.html">Restaurants</a> &nbsp;
+            <a href="faqs.html">FAQs</a> &nbsp;
+         </nav>          
+         </div>                                       
+      </header>      
+      <main>
+         
+         <section>
+            <div class="section1">
+               <h2 class="headline" >Lodging</h2>
+               <div class="emptyDivSection1">
+
+               </div>
+               <div>
+                  <p class="pAttractions">Taniti has a wide variety of lodging that ranges from an inexpensive hostel to one large, four-star resort. There are many small, family-owned hotels and a growing number of bed and breakfasts. All types of lodging are strictly regulated and regularly inspected by the Tanitian government.</p>
+                  <img id="slideshow" src="images/5.jpg" style="height:350px;" alt="Beach image">
+
+                  <script>
+                  const images = ["images/resort1.jpg", "images/resort2.jpg", "images/resort3.jpg", "images/resort4.jpg"];
+                  let index = 0;
+
+                  setInterval(() => {
+                     index = (index + 1) % images.length;
+                     document.getElementById("slideshow").src = images[index];
+                  }, 2000); 
+                  </script>
+               </div>     
+            </div>                               
+         </section>
+         <div class="emptyDiv">
+
+         </div>            
+         <section class="section2">
+            <div class="div1" onclick="window.location.href='transportation.html'" style="cursor: pointer;">
+               <img class="img1" src="images/transportation.jpg" alt="Transportation image">
+               <div><h3>transportation</h3></div>
+            </div>
+            <div class="div2" onclick="window.location.href='restaurants.html'" style="cursor: pointer;">
+               <img class="img2" src="images/restaurant.jpg" alt="Restaurant image">
+               <div><h3>Restaurants</h3></div>
+            </div>
+            <div class="div3" onclick="window.location.href='faqs.html'" style="cursor: pointer;">
+               <img class="img3" src="images/faqs.jpg" alt="FAQs image">
+               <div><h3>FAQs</h3></div>
+            </div>
+         </section>
+         
+      </main>      
+      <footer>
+         <div class="emptyDiv">
+
+         </div>
+         <p>
+            Questions? Contact us today! 
+         </p>
+         <p>
+            <a class="contactInfo" href="mailto:wgustudent@gmail.com">Email us: wgustudent@gmail.com</a>
+         </p>
+         <p>
+             <a class="contactInfo" href="callto:111-777-7897">Call us: 777-502-1234</a><br>
+         </p>
+          <p>
+            &copy; 2025 Lodging! 
+         </p>
+      </footer>             
+   </body>
+</html>

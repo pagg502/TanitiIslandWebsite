@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="keywords" content="new pet consultation, new pet care consultation">
+      <link href="stylesheet.css" rel="stylesheet">
+      <title>Tanitian website</title>
+   </head>
+   <body>
+      <header class="headerContainer">
+         <div class="logoAndTextContainer" onclick="window.location.href='home.html'" style="cursor: pointer;">               
+         <div>
+            <img class="logo" src="images/logo11.jpg" alt="Logo Image"> 
+         </div>
+         <div>
+            <p class="tanitiIslandText">Taniti Island</p>
+         </div>
+         </div>
+         <div class="navContainer">
+            <nav>
+            <a href="home.html">Home</a> &nbsp;
+            <a href="lodging.html">Lodging</a> &nbsp;
+            <a href="attractions.html">Attractions</a> &nbsp;
+            <a class="active" href="transportation.html">Transportation</a> &nbsp;
+            <a href="restaurants.html">Restaurants</a> &nbsp;
+            <a href="faqs.html">FAQs</a> &nbsp;
+         </nav>          
+         </div>                                       
+      </header>      
+      <main>
+         
+         <section>
+            <div class="section1">
+               
+               <h2>Transportation</h2> 
+               <div class="emptyDivSection1">
+
+               </div> 
+                <p>
+                  Almost all visitors arrive to Taniti by air, though some arrive on a small cruise ship that docks in Yellow Leaf Bay for one night per week. Taniti is served by a small airport that can accommodate small jets and propeller planes. Taniti is in the process of expanding the airport so larger jets will be able to land on the island within the next few years. 
+               </p>    
+               <p>
+                  Public buses serve Taniti City and run from 5 a.m. to 11 p.m. every day. Private buses serve the rest of the island. Taxis are available in Taniti City, and rental cars can be rented from a local rental agency near the airport. Bikes and helmets are available to rent from several vendors (helmets are required by law). Taniti City is fairly flat and very walkable. Many tourists stay in the area surrounding Merriton Landing: this area is easy to explore on foot.
+               </p>
+               <div>
+               <img id="slideshow" src="images/transportation.jpg" style="height:250px;" alt="Beach image">
+
+                  <script>
+                  const images = ["images/crusise.jpg", "images/plane.jpg", "images/buses.jpg", "images/bike.jpg", "images/walking.jpg"];
+                  let index = 0;
+
+                  setInterval(() => {
+                     index = (index + 1) % images.length;
+                     document.getElementById("slideshow").src = images[index];
+                  }, 2000); 
+                  </script> 
+                  </div>      
+            </div>                               
+         </section>
+         <div class="emptyDiv">
+
+         </div>            
+         <section class="section2">
+            <div class="div1" onclick="window.location.href='attractions.html'" style="cursor: pointer;">
+               <img class="img1" src="images/attractions.jpg" alt="Attractions image">
+               <div><h3>Attractions</h3></div>
+            </div>
+            <div class="div2" onclick="window.location.href='restaurants.html'" style="cursor: pointer;">
+               <img class="img2" src="images/restaurant.jpg" alt="Restaurant image">
+               <div><h3>Restaurants</h3></div>
+            </div>
+            <div class="div3" onclick="window.location.href='faqs.html'" style="cursor: pointer;">
+               <img class="img3" src="images/faqs.jpg" alt="FAQs image">
+               <div><h3>FAQs</h3></div>
+            </div>
+         </section>
+         
+      </main>      
+      <footer>
+         <div class="emptyDiv">
+
+         </div>
+         <p>
+            Questions? Contact us today! 
+         </p>
+         <p>
+            <a class="contactInfo" href="mailto:wgustudent@gmail.com">Email us: wgustudent@gmail.com</a>
+         </p>
+         <p>
+             <a class="contactInfo" href="callto:111-777-7897">Call us: 777-502-1234</a><br>
+         </p>
+          <p>
+            &copy; 2025 Transportation! 
+         </p>
+      </footer>             
+   </body>
+</html>

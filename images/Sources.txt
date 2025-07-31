@@ -1,0 +1,27 @@
+logo	https://www.istockphoto.com/photos/island
+1	https://www.pexels.com/search/3d%20resort/
+2	https://www.wendyperrin.com/ideal-best-island-for-each-month-year/
+3	https://www.istockphoto.com/photos/island
+4	https://www.istockphoto.com/photos/tropical-paradise
+5	https://www.istockphoto.com/photos/tropical-paradise
+6	https://www.istockphoto.com/photos/tropical-paradise
+restaurant	https://www.istockphoto.com/search/2/image-film?phrase=restaurant
+newLogo		https://stock.adobe.com/search/images?k=paradise+island&asset_id=1259016728
+tropical island logo	https://www.vecteezy.com/free-vector/island
+
+logo11 		https://www.vecteezy.com/vector-art/7036068-summer-time-badges-with-sunset-and-wave-coconut-tree-and-surf-beach-paradise-island-heaven
+attractions	https://www.istockphoto.com/search/2/image-film?phrase=atractions
+faqs		https://www.istockphoto.com/search/2/image-film?phrase=questions
+transportation	https://www.istockphoto.com/search/2/image-film?phrase=taxi
+crusise		https://www.istockphoto.com/search/2/image-film?phrase=cruise
+plane		https://www.istockphoto.com/search/2/image-film?phrase=plane
+buses		https://www.istockphoto.com/search/2/image-film?phrase=buses
+bike		https://www.istockphoto.com/search/2/image-film?phrase=bike
+walking		https://www.istockphoto.com/search/2/image-film?phrase=walking
+
+rainforest	https://www.istockphoto.com/search/2/image-film?phrase=rainforest
+volcano		https://www.istockphoto.com/search/2/image-film?phrase=volcano
+snorkeling	https://www.istockphoto.com/search/2/image-film?phrase=snorkeling
+zip-lining 	https://www.istockphoto.com/search/2/image-film?phrase=zip-lining%20
+
+resort1-4 	https://www.istockphoto.com/search/2/image-film?phrase=resort
