@@ -6,10 +6,8 @@ logo	https://www.istockphoto.com/photos/island
 5	https://www.istockphoto.com/photos/tropical-paradise
 6	https://www.istockphoto.com/photos/tropical-paradise
 restaurant	https://www.istockphoto.com/search/2/image-film?phrase=restaurant
-newLogo		https://stock.adobe.com/search/images?k=paradise+island&asset_id=1259016728
-tropical island logo	https://www.vecteezy.com/free-vector/island
 
-logo11 		https://www.vecteezy.com/vector-art/7036068-summer-time-badges-with-sunset-and-wave-coconut-tree-and-surf-beach-paradise-island-heaven
+logo11 		https://www.vecteezy.com/vector-art/7036068-summer-time-badges-with-sunset-and-wave-coconut-tree-and-surf-beach-paradise-island-
 attractions	https://www.istockphoto.com/search/2/image-film?phrase=atractions
 faqs		https://www.istockphoto.com/search/2/image-film?phrase=questions
 transportation	https://www.istockphoto.com/search/2/image-film?phrase=taxi

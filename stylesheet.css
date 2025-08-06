@@ -138,14 +138,14 @@ ul {
 
 .section2{
     position: relative;
-    height: 500px;
+    height: 300px;
     margin-top: 60px;
     margin-bottom: 30px;
     display: inline-flex;
 }
 .section2 > div {
     display: block;
-    height: 480px;
+    height: 250px;
     width: 320px;
     border: 2px solid rgb(199, 238, 230);
     border-radius: 10px;
@@ -154,33 +154,33 @@ ul {
     border: 2px solid black;
 }
 .div1{    
-    height: 480px;
+    height: 250px;
     width: 320px;
     margin-left: 200px;  
 }
 .div2{    
-    height: 480px;
+    height: 250px;
     width: 320px;
     margin-left: 80px;  
 }
 .div3{    
-    height: 480px;
+    height: 250px;
     width: 320px;
     margin-left: 80px;    
 }
 
 .img1{    
-    height: 450px;
+    height: 250px;
     width: 320px;
     border-radius: 10px;
 }
 .img2{    
-    height: 450px;
+    height: 250px;
     width: 320px;
     border-radius: 10px;
 }
 .img3{    
-    height: 450px;
+    height: 250px;
     width: 320px;
     border-radius: 10px;
 }
